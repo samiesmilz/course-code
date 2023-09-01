@@ -1,0 +1,9 @@
+body {
+  font-family: "Inter", Aril;
+  background-color: aquamarine;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
