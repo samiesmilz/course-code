@@ -1,0 +1,68 @@
+Part I
+------
+
+1. make a directory called first 
+mkdir first
+
+2. change directory to the first folder 
+cd first
+
+3. create a file called person.txt 
+touch person.txt
+
+4. change the name of person.txt to another.txt 
+mv person.txt another.txt
+
+5. make a copy of the another.txt file and call it copy.txt 
+cp another.txt copy.txt
+
+6. remove the copy.txt file  
+rm copy.txt
+
+7. make a copy of the first folder and call it second  
+cp -r first second
+
+8. delete the second folder  
+rm -fr second
+
+
+Part II
+-------
+
+1. What does the man command do?  
+man command displays the manual / documentation of the specified command and its flags.
+
+Type in man rm. How do you scroll and get out?  
+By using the enter key as well as up/down arrows [ on mac ]
+
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+-l |List files in the long format, as described in the The Long Format subsection below.
+-a |Include directory entries whose names begin with a dot (.)
+
+3. How do you jump between words in the terminal?
+option + [left/right] arrow keys
+
+4. How do you get to the end of a line in terminal?
+control + e
+
+5. How do you move your cursor to the beginning in terminal?
+control + a
+
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+control + w
+
+7. What is the difference between a terminal and shell?
+A terminal is a program that provides a command line interface, while a shell is the program that executes the commands [ A termal wraps the shell ]
+
+8. What is an absolute path?
+This is a detailed specific location of a file or folder from the root directory within the system.
+
+9. What is an relative path?
+It is a way to reference the location of a file or directory in relation to the current working directory. Where the current working directory is denoted by a (.) and the parent directorty it is denoted by (..)
+
+10. What is a flag? Give three examples of flags you have used.
+A flag is an instruction that enhances a terminal command eg. -a -f -r -l
+
+11. What do the r and f flags do with the rm command?
+-f |It is an attempt to remove the files without prompting for confirmation, regardless of the file's permissions.
+-r |It is equivalent to  -R. Which is an attempt to remove the file hierarchy rooted in each file argument.
